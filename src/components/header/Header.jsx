@@ -1,5 +1,5 @@
 import logo from "../../img/logo2.png";
-import styles from "./header.module.css";
+import styles from "./Header.module.css";
 import { Link } from "react-router";
 
 export default function header() {
