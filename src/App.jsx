@@ -4,7 +4,6 @@ import Title from "./components/title/Title";
 import Services from "./components/services/Services";
 import { Route, Routes } from "react-router";
 import Bankruptcy from "./pages/bankruptcy/Bankruptcy";
-import Practics from "./components/practics/Practics";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
             <>
               <Title />
               <Services />
-              {/* <Practics /> */}
             </>
           }
         />
