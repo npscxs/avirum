@@ -1,0 +1,16 @@
+.title {
+  margin-top: 40px;
+  text-align: center;
+  color: whitesmoke;
+  margin-bottom: 40px;
+}
+
+.accordion {
+  background-color: rgba(17, 98, 116, 1);
+}
+
+.accordionTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: whitesmoke;
+}

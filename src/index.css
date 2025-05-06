@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "EngraversGothic";
+  src: url("../fonts/EngraversGothic-Bold.eot");
+  src: url("../fonts/EngraversGothic-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/EngraversGothic-Bold.woff2") format("woff2"),
+    url("../fonts/EngraversGothic-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body,
+header,
+footer,
+main {
+  display: block;
+  font-family: "EngraversGothic", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #116274;
+  background: linear-gradient(
+    262deg,
+    rgba(17, 98, 116, 1) 6%,
+    rgba(8, 0, 0, 1) 92%
+  );
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

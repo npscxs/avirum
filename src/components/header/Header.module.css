@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+}
+.logo {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 250px;
+}
+
+.navList {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.contactList {
+  color: black;
+  gap: 20px;
+  margin-left: auto;
+}
