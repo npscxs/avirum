@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./components/header/header";
+import Header from "./components/header/Header";
 import Title from "./components/title/Title";
 import Services from "./components/services/Services";
 import { Route, Routes } from "react-router";
