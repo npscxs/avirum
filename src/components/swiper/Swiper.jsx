@@ -12,12 +12,17 @@ import { Link } from "react-router";
 function MySlider() {
   return (
     <div id="swiper">
-      <h2 className={css.title}>Перемоги, які формують репутацію</h2>
+      <h2 className={css.title}>
+        Перемоги, які формують репутацію,{" "}
+        <Link to="/winBusiness" className={css.link}>
+          або повний перелік справ
+        </Link>
+      </h2>
       <div className={css.mySwiperContainer}>
         <Swiper
           modules={[Navigation]}
           spaceBetween={20}
-          slidesPerView={3}
+          slidesPerView={4}
           navigation={true}
           loop={true}
           style={{ height: "100%" }}
@@ -38,12 +43,9 @@ function MySlider() {
           <SwiperSlide className={css.mySlide}>Штраф ТЦК</SwiperSlide>
         </Swiper>
       </div>
-      <div className={css.downContainer}>
+      {/* <div className={css.downContainer}>
         <h2 className={css.downTitle}>Це ми також виграли</h2>
-        <Link to="/winBusiness" className={css.link}>
-          Перелік справ
-        </Link>
-      </div>
+      </div> */}
     </div>
   );
 }
