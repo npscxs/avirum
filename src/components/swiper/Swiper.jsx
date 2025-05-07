@@ -11,7 +11,7 @@ import { Link } from "react-router";
 
 function MySlider() {
   return (
-    <div>
+    <div id="swiper">
       <h2 className={css.title}>Перемоги, які формують репутацію</h2>
       <div className={css.mySwiperContainer}>
         <Swiper

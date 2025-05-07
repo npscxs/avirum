@@ -23,6 +23,7 @@ function App() {
               <Services />
               <SwiperWord />
               <Team />
+              <FooterApp />
             </>
           }
         />
@@ -44,7 +45,6 @@ function App() {
           }
         />
       </Routes>
-      <FooterApp />
     </div>
   );
 }

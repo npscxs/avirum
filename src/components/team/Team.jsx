@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Team() {
   return (
-    <div>
+    <div id="team">
       <h3 className={css.teamTitle}>Наша команда</h3>
       <ul className={css.list}>
         <li className={css.listItem}>

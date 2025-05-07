@@ -13,11 +13,21 @@ export default function header() {
           <li className={styles.navItem}>
             <a href="#services">Послуги</a>
           </li>
-          <li className={styles.navItem}>Практики</li>
-          <li className={styles.navItem}>Команда</li>
-          <li className={styles.navItem}>Ціни</li>
-          <li className={styles.navItem}>Питання</li>
-          <li className={styles.navItem}>Контакти</li>
+          <li className={styles.navItem}>
+            <a href="#swiper">Практики</a>
+          </li>
+          <li className={styles.navItem}>
+            <a href="#team">Команда</a>
+          </li>
+          <li className={styles.navItem}>
+            <a href="">Ціни</a>
+          </li>
+          <li className={styles.navItem}>
+            <a href="">Питання</a>
+          </li>
+          <li className={styles.navItem}>
+            <a href="#footer">Контакти</a>
+          </li>
         </ul>
       </nav>
       <ul className={styles.contactList}>

@@ -1,6 +1,7 @@
 .services {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 100px;
 }
 .servicesTitle {
   font-size: 1.5rem;
