@@ -4,6 +4,10 @@ import Title from "./components/title/Title";
 import Services from "./components/services/Services";
 import { Route, Routes } from "react-router";
 import Bankruptcy from "./pages/bankruptcy/Bankruptcy";
+import SwiperWord from "./components/swiper/Swiper";
+import WinBusines from "./pages/winBusines/WinBusines";
+import Team from "./components/team/Team";
+import FooterApp from "./components/footer/FooterApp";
 
 function App() {
   return (
@@ -17,6 +21,8 @@ function App() {
             <>
               <Title />
               <Services />
+              <SwiperWord />
+              <Team />
             </>
           }
         />
@@ -29,7 +35,16 @@ function App() {
             </>
           }
         />
+        <Route
+          path="/winBusiness"
+          element={
+            <>
+              <WinBusines />
+            </>
+          }
+        />
       </Routes>
+      <FooterApp />
     </div>
   );
 }

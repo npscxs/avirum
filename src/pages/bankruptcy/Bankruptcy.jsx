@@ -8,7 +8,7 @@ import css from "./Bankruptcy.module.css";
 
 export default function Bankruptcy() {
   return (
-    <div className="bankruptcy">
+    <div className={css.container}>
       <div className={css.title}>
         <h1>Банкрутсво</h1>
         <p>

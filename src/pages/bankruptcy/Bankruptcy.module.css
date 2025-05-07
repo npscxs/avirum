@@ -1,10 +1,22 @@
-.title {
-  margin-top: 40px;
-  text-align: center;
-  color: whitesmoke;
-  margin-bottom: 40px;
+.container {
+  padding-top: 40px;
+  display: flex;
 }
+.title {
+  max-width: 600px;
+  text-align: start;
+  color: whitesmoke;
+}
+.title h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.title p {
+  font-size: 1.2rem;
 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .accordion {
   background-color: rgba(17, 98, 116, 1);
   background-color: rgba(17, 98, 116, 1);
@@ -13,5 +25,4 @@
 .accordionTitle {
   font-size: 1.5rem;
   font-weight: bold;
-  /* color: whitesmoke; */
 }
