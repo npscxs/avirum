@@ -19,6 +19,9 @@ export default function FooterApp() {
           Телефон: <a href="tel:+38 098 50 65 416">+38 098 50 65 416</a>
         </li>
       </ul>
+      <a href="https://www.google.com/maps/dir//51.0183338,16.8878155/@51.0150671,16.889103,14z/data=!4m2!4m1!3e0?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D">
+        проложитьб маршрут
+      </a>
     </footer>
   );
 }

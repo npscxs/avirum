@@ -21,31 +21,74 @@ function MySlider() {
       <div className={css.mySwiperContainer}>
         <Swiper
           modules={[Navigation]}
-          spaceBetween={20}
           slidesPerView={4}
           navigation={true}
           loop={true}
           style={{ height: "100%" }}
         >
           <SwiperSlide className={css.mySlide}>
-            Стягнули з в/ч (???????)
+            <div className={css.flipCard}>
+              <div className={css.flipCardInner}>
+                <div className={css.flipCardFront}>
+                  <p>Стягнули з в/ч (???????)</p>
+                </div>
+                <div className={css.flipCardBack}>
+                  <p>back</p>
+                </div>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide className={css.mySlide}>
-            Зписали 84% заборгованості за кредитом
+            <div className={css.flipCard}>
+              <div className={css.flipCardInner}>
+                <div className={css.flipCardFront}>
+                  <p>Зписали 84% заборгованості за кредитом</p>
+                </div>
+                <div className={css.flipCardBack}>
+                  <p>back</p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide className={css.mySlide}>
+            <div className={css.flipCard}>
+              <div className={css.flipCardInner}>
+                <div className={css.flipCardFront}>
+                  <p>Скасували постанову про керування в нетверезому стані</p>
+                </div>
+                <div className={css.flipCardBack}>
+                  <p>back</p>
+                </div>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide className={css.mySlide}>
-            Фізична особа банкрут
+            <div className={css.flipCard}>
+              <div className={css.flipCardInner}>
+                <div className={css.flipCardFront}>
+                  <p>??????</p>
+                </div>
+                <div className={css.flipCardBack}>
+                  <p>back</p>
+                </div>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide className={css.mySlide}>
-            Скасували постанову про керування в нетверезому стані
+            <div className={css.flipCard}>
+              <div className={css.flipCardInner}>
+                <div className={css.flipCardFront}>
+                  <p>Штраф ТЦК</p>
+                </div>
+                <div className={css.flipCardBack}>
+                  <p>back</p>
+                </div>
+              </div>
+            </div>
           </SwiperSlide>
-          <SwiperSlide className={css.mySlide}>(??????)</SwiperSlide>
-          <SwiperSlide className={css.mySlide}>Штраф ТЦК</SwiperSlide>
         </Swiper>
       </div>
-      {/* <div className={css.downContainer}>
-        <h2 className={css.downTitle}>Це ми також виграли</h2>
-      </div> */}
     </div>
   );
 }

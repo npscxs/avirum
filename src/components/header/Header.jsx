@@ -1,35 +1,19 @@
 import logo from "../../img/logo2.png";
 import styles from "./Header.module.css";
+import React from "react";
 import { Link } from "react-router";
+import Navigation from "../navigation/Navigation";
+import { useLocation } from "react-router-dom";
 
-export default function header() {
+export default function Header() {
+  const location = useLocation();
   return (
     <header className={styles.header}>
       <Link to="/">
         <img className={styles.logo} src={logo} alt="logo" />
       </Link>
-      <nav>
-        <ul className={styles.navList}>
-          <li className={styles.navItem}>
-            <a href="#services">Послуги</a>
-          </li>
-          <li className={styles.navItem}>
-            <a href="#swiper">Практики</a>
-          </li>
-          <li className={styles.navItem}>
-            <a href="#team">Команда</a>
-          </li>
-          <li className={styles.navItem}>
-            <a href="">Ціни</a>
-          </li>
-          <li className={styles.navItem}>
-            <a href="">Питання</a>
-          </li>
-          <li className={styles.navItem}>
-            <a href="#footer">Контакти</a>
-          </li>
-        </ul>
-      </nav>
+      {location.pathname === "/" && <Navigation />}
+
       <ul className={styles.contactList}>
         <li>
           <a href="tel:+380985065416">+380-98-50-65-416</a>
